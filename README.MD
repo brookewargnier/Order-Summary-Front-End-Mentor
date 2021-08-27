@@ -10,6 +10,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+  - [Time](#time)
 - [Author](#author)
 
 
@@ -61,6 +62,9 @@ I also know for the next time to take some time before starting to really think 
 
 - [Flexbox Zombies](https://mastery.games/flexboxzombies/) - This taught me a lot about how to create flexboxes and made me a lot more comfortable working with layouts.
 
+### Time
+
+- This challenge was started 8/25/2021 and completed 8/26/2021
 
 ## Author
 
