@@ -7,6 +7,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Built with](#built-with)
+  - [links] (#links)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -34,6 +35,11 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+
+### Links
+
+- Solution URL: (https://github.com/brookewargnier/Order-Summary-Front-End-Mentor)
+- Live Site URL: (https://brookewargnier.github.io/Order-Summary-Front-End-Mentor/)
 
 ### What I learned
 
