@@ -122,12 +122,12 @@ h2 {
   font-weight: bold;
   text-align: right;
   margin-right: 20px;
+  transition: color 0.4s;
 }
 
 .change:hover {
   color: #766CF1;
   text-decoration: none;
-  transition-duration: 0.4s;
 
 }
 
@@ -144,11 +144,11 @@ button {
   color: #FFFFFF;
   margin: 15px 0 20px 0;
   cursor: pointer;
+  transition: background-color 0.4s;
 }
 
 button:hover {
   background-color: #766CF1;
-  transition-duration: 0.4s;
 }
 
 .cancel-order {
@@ -160,5 +160,5 @@ button:hover {
 }
 .cancel-order:hover {
   color: #1F2E55;
-  transition-duration: 0.4s;
+  transition: color 0.4s;
 }
