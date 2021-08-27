@@ -1,0 +1,163 @@
+body {
+  background-image: url(../images/pattern-background-desktop.svg);
+  background-color: #E0E8FF;
+  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+  display: flex;
+  min-height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  margin: 0;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.rectangle {
+  position: relative;
+  width: 450px;
+  height: 697px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  filter:drop-shadow(0 .2rem .1rem #717FA6) drop-shadow(0 1rem .55rem #D3DDFD);
+}
+
+.illustration-hero {
+  border-radius: 20px 20px 0px 0px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 50%;
+  margin: 20px;
+}
+
+#annual-plan-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2fr;
+  grid-column-gap: 0px;
+  grid-template-areas:
+   'icon-music annual-costs-group change';
+  align-items: center;
+  justify-content: space-around;
+}
+
+#annual-plan-container, .plan-container {
+  width: 354px;
+  height: 98px;
+  background-color: #F7F9FF;
+  border-radius: 11px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 37px;
+  text-align: center;
+  color: #1F2E55;
+  margin: 0 0 0 0;
+  margin-top: 20px;
+}
+
+.order-notes {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #717FA6;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1F2E55;
+  text-align: left;
+  margin: 0 0 6px 0;
+}
+
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #717FA6;
+  text-align: left;
+  margin: 6px 0 0 0;
+}
+
+.icon-music {
+  margin-left: 20px;
+  margin-right: 20px;
+  grid-area: icon-music;
+
+}
+.annual-costs-group {
+  grid-area: annual-costs-group;
+  justify-self: start;
+}
+
+.change {
+  grid-area: change;
+  color: #382AE1;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+  margin-right: 20px;
+  transition-duration: 0.4s;
+}
+
+.change:hover {
+  color: #766CF1;
+  text-decoration: none;
+
+}
+
+button {
+  background-color: #382AE1;
+  width: 354px;
+  height: 50px;
+  border: none;
+  border-radius: 11px;
+  filter:drop-shadow(0 .2rem .1rem #717FA6) drop-shadow(0 1rem .55rem #D3DDFD);
+
+  font-weight: 900;
+  font-size: 15px;
+  color: #FFFFFF;
+  margin: 32px 0 32px 0;
+
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #766CF1;
+}
+
+.cancel-order {
+  font-weight: 900;
+  font-size: 15px;
+  color: #717FA6;
+  text-decoration: none;
+  transition-duration: 0.4s;
+}
+.cancel-order:hover {
+  color: #1F2E55;
+}
